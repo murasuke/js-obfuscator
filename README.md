@@ -46,8 +46,6 @@ https://blog.mudatobunka.org/entry/2024/09/02/140311
 
 ### (ちょっとだけ)補足
 
-記号から数字や文字を作る方法は大きく分けて2つあります
-
 #### まず数字の作り方
 
 * 評価結果が`0`になる式を作る（空配列に`+`をつけることで数値として評価される）
@@ -79,6 +77,8 @@ https://blog.mudatobunka.org/entry/2024/09/02/140311
 > -~-~[]<<-~-~[]
 8
 ```
+
+次に文字の作り方ですが、大きく分けて2つあります
 
 #### ①JavaScriptで評価した結果を文字列化して、そこから[index]で切り取る方法
 
@@ -163,7 +163,7 @@ false
 
 
 ## プログラムソース
-```javascript
+```javascript:converter.mjs
 /**
  * JavaScript obfuscator program
  *  @license MIT
